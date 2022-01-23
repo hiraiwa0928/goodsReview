@@ -1,24 +1,29 @@
 # 実行手順
-
+<br>
 1. root権限でユーザー名をusername、パスワードをpasswordとするユーザーを作成する。以下のSQL文を実行させる<br>
-<code>
-    create user 'sample'@'localhost' identified by 'password';
-</code>
-
-2. root権限でcreateDatabase.sqlを発行し、goodsReviewというデータベースを作成する。
+```
+create user 'sample'@'localhost' identified by 'password';
+```
+<br>
+2. root権限でcreateDatabase.sqlを発行し、goodsReviewというデータベースを作成する。<br><br>
 3. root権限で作成したユーザーにgoodsReviewデータベースのアクセス許可を与える。以下のSQL文を実行させる<br>
-<code>
-    grant all privileges ON goodsReview.*TO 'sample'@'localhost';
-</code>
-4. root権限を抜けて、ユーザー名sampleでログインをする。
-5. goodsReviewデータベースを選択し、member.sql、goods.sql、goodsReview.sqlの3つのファイルを実行させる。
+
+```
+grant all privileges ON goodsReview.*TO 'sample'@'localhost';
+```
+<br>
+4. root権限を抜けて、ユーザー名sampleでログインをする。<br><br>
+5. goodsReviewデータベースを選択し、member.sql、goods.sql、goodsReview.sqlの3つのファイルを実行させる。<br><br>
 6. goodsReviewフォルダ内にある「./display/originalImages」、「./display/changeSizeImages」の二つのフォルダに権限を与えるために、カレントディレクトリをdisplayにした状態で以下のコマンドを入力してください。<br>
-<code>
-    chmod 777 originalImages<br>
-    chmod 777 changeSizeImages
-</code>
-7. DocumentRootにgoodsReviewフォルダを設置してください。
+
+```
+chmod 777 originalImages
+chmod 777 changeSizeImages
+```
+<br>
+7. DocumentRootにgoodsReviewフォルダを設置してください。<br><br>
 8. http://localhost にアクセスするとTOPページが表示されます。
+<br><br>
 
 # 機能概要
 
