@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS goodsReview;
+CREATE DATABASE goodsReview CHARACTER SET utf8 COLLATE utf8_general_ci;
