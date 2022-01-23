@@ -1,6 +1,7 @@
 # 実行手順
 <br>
 1. root権限でユーザー名をusername、パスワードをpasswordとするユーザーを作成する。以下のSQL文を実行させる<br>
+
 ```
 create user 'sample'@'localhost' identified by 'password';
 ```
