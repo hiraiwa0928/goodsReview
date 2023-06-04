@@ -6,27 +6,27 @@
 
 ## ログイン
 
-![TOPページ](./goodsReviewImg/ホームページ.png)
+![TOPページ](./goodsReviewImg/homepage.png)
 GoodsReviewのTopページになります。<br>
 このWebアプリケーションを使い際には、<strong>ログインが必要</strong>になります。<br>
 会員登録をする際には、画面の右上の<strong>新規会員登録</strong>をクリックします。<br>
 
 ***
-![新規会員登録](./goodsReviewImg/新規会員登録.png)
+![新規会員登録](./goodsReviewImg/registmember.png)
 会員登録では<strong>ユーザー名</strong>と<strong>パスワード</strong>の入力が必要です。<br>
 この際、すでに使用されているユーザー名は使用できません。<br>
 また、パスワードの入力が間違っている際には登録ができません。<br>
 
 ***
-![会員登録完了](./goodsReviewImg/会員登録完了.png)
+![会員登録完了](./goodsReviewImg/collectregistmember.png)
 入力内容が正しけば新規会員登録が完了します。<br>
 
 ***
-![ログイン画面](./goodsReviewImg/ログイン画面.png)
+![ログイン画面](./goodsReviewImg/loginscreen.png)
 会員登録した情報をログイン画面に入力します。<br>
 
 ***
-![ログイン完了](./goodsReviewImg/ログイン完了.png)
+![ログイン完了](./goodsReviewImg/collectlogin.png)
 Topページの右上にユーザー名が表示されたら、ログインが完了です。<br>
 ログインが完了すると、<strong>商品の投稿</strong>と<strong>商品のレビュー</strong>ができるようになります。<br>
 
@@ -34,22 +34,22 @@ Topページの右上にユーザー名が表示されたら、ログインが�
 
 ## 商品の登録について
 
-![商品一覧ページ](./goodsReviewImg/商品一覧ページ.png)
+![商品一覧ページ](./goodsReviewImg/goodslist.png)
 Topページから<strong>日用品</strong>、<strong>ファッション</strong>、<strong>家電製品</strong>のジャンルを選択すると商品の一覧ページに遷移します。<br>
 商品を登録する際には、商品一覧ページの右上の<strong>商品を登録する</strong>をクリックします。<br>
 
 ***
-![商品の詳細](./goodsReviewImg/商品の詳細.png)
+![商品の詳細](./goodsReviewImg/goodsdetail.png)
 商品登録画面では、他のユーザーにレビューをして欲しい商品を登録します。<br>
 商品の登録では、<strong>商品名</strong>、<strong>商品の画像</strong>、<strong>商品の概要</strong>を入力する必要があります。<br>
 
 ***
-![商品の詳細確認](./goodsReviewImg/商品の詳細確認.png)
+![商品の詳細確認](./goodsReviewImg/checkgoodsdetail.png)
 入力した商品の情報が表示されます。<br>
 画面の表示された情報に不備がなければ、登録ボタンをクリックします。<br>
 
 ***
-![商品登録完了](./goodsReviewImg/商品登録完了.png)
+![商品登録完了](./goodsReviewImg/collectregistgoods.png)
 登録された商品は、商品一覧ページに表示されます。<br>
 表示されている商品をクリックすることで、レビュー画面に遷移します。<br>
 
@@ -57,25 +57,24 @@ Topページから<strong>日用品</strong>、<strong>ファッション</stron
 
 ## 商品のレビューについて
 
-![レビュー欄](./goodsReviewImg/レビュー欄.png)
+![レビュー欄](./goodsReviewImg/reviewlist.png)
 商品の一覧画面から商品画像をクリックすると、その商品のレビューを確認することができます。<br>
 自身がレビューを投稿する場合は、<strong>レビューを投稿する</strong>をクリックします。<br>
 
 ***
-![レビュー投稿](./goodsReviewImg/レビュー投稿.png)
+![レビュー投稿](./goodsReviewImg/reviewpost.png)
 商品のレビューでは、<strong>星マークによる1〜5の評価</strong>と、<strong>文章による評価</strong>を行います。<br>
 
 ***
-![レビュー投稿確認](./goodsReviewImg/レビュー投稿確認.png)
+![レビュー投稿確認](./goodsReviewImg/checkreviewpost.png)
 商品のレビューに関する内容を確認し、不備がなければ登録ボタンをクリックします。<br>
 
 ***
-![レビュー投稿完了](./goodsReviewImg/レビュー投稿完了.png)
+![レビュー投稿完了](./goodsReviewImg/collectreviewpost.png)
 商品のレビューが完了すると、複数のユーザーの星マークによる評価が変化し、文章の評価が投稿されます。<br>
 以上が、GoodsRevewの機能です。<br>
 
 ***
-
 
 # 実行手順
 <br>
